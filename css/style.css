@@ -1,10 +1,11 @@
 body {
-  background-color: #ff0000;
+  background-color: #fff;
   color: #0000FF;
+  font-size: 16px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(41,41,41,1);
   float: left;
   position: fixed;
   width: 100%;
@@ -21,6 +22,11 @@ nav {
 
 .medium-pic {
   width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .5em;
+
 }
 
 .left, .right {
@@ -30,6 +36,8 @@ nav {
 
 .right {
   float: right;
+  font-size: 1em;
+
 }
 
 ul {
@@ -44,9 +52,65 @@ li {
 
 article {
   padding-top: 100px;
+  font-size: 100%;
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
 }
+
+figcaption{
+  color: #6d6878;
+  font-size: 75%;
+  margin: 0 0 1.4em;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  font-size: 3em;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #081909;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3{
+  font-size: 1em;
+  color: #FFA533;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  font-style: thin;
+  text-align: center;
+    margin: 1.4em 0 1em;
+}
+
+.author {
+  font-size: .9em;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #081909;
+  text-align: center;
+  margin: 0 0 1.5em;
+}
+
+.story-text{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 85%;
+  margin: 0 0 .7em;
+  line-height: 1.5;
+  color: #081909;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link { color: #E8E8E8;}
+a:visited {color: #DBE1E7;}
