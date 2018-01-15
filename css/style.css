@@ -26,7 +26,6 @@ nav {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: .5em;
-
 }
 
 .left, .right {
@@ -37,7 +36,6 @@ nav {
 .right {
   float: right;
   font-size: 1em;
-
 }
 
 ul {
@@ -62,10 +60,13 @@ article {
 
 figcaption{
   color: #6d6878;
-  font-size: 75%;
-  margin: 0 0 1.4em;
-  text-align: center;
+  font-size: .6em;
+  margin: 0 0 4em;
   font-family: 'Raleway', sans-serif;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1{
@@ -83,7 +84,7 @@ h3{
   font-family: 'Raleway', sans-serif;
   font-style: thin;
   text-align: center;
-    margin: 1.4em 0 1em;
+  margin: 2em 0 2em;
 }
 
 .author {
@@ -102,7 +103,7 @@ h3{
 
 p{
   font-family: 'Raleway', sans-serif;
-  font-size: 85%;
+  font-size: .85em;
   margin: 0 0 .7em;
   line-height: 1.5;
   color: #081909;
@@ -114,3 +115,4 @@ a{
 
 a:link { color: #E8E8E8;}
 a:visited {color: #DBE1E7;}
+a:hover{color: #FFA533;}
