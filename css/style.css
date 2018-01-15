@@ -50,7 +50,7 @@ li {
 
 article {
   padding-top: 100px;
-  font-size: 100%;
+  font-size: 1em;
 }
 
 .container {
@@ -58,7 +58,7 @@ article {
   width: 50%;
 }
 
-figcaption{
+figcaption {
   color: #6d6878;
   font-size: .6em;
   margin: 0 0 4em;
@@ -69,7 +69,7 @@ figcaption{
   margin-right: auto;
 }
 
-h1{
+h1 {
   font-size: 3em;
   font-family: "Trebuchet MS", Verdana, sans-serif;
   color: #081909;
@@ -77,7 +77,7 @@ h1{
   text-align: center;
 }
 
-h3{
+h3 {
   font-size: 1em;
   color: #FFA533;
   font-weight: normal;
@@ -101,7 +101,7 @@ h3{
   margin-right: auto;
 }
 
-p{
+p {
   font-family: 'Raleway', sans-serif;
   font-size: .85em;
   margin: 0 0 .7em;
